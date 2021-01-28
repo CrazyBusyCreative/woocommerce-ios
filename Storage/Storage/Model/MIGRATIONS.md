@@ -2,6 +2,10 @@
 
 This file documents changes in the WCiOS Storage data model. Please explain any changes to the data model as well as any custom migrations.
 
+## Model 45 (Release 6.0.0.0)
+- @rachelmcr 2021-01-28
+- Changed `stockQuantity` attribute on `ProductVariation` from Int64 to Decimal
+
 ## Model 44 (Release 6.0.0.0)
 - @jaclync 2021-01-27
 - Added `timeRange` attribute to `SiteVisitStats` entity (non-optional and default to empty string).
